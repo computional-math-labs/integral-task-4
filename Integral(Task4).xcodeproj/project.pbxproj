@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B58567D248429A3003188D0 /* constants.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B58567B248429A3003188D0 /* constants.cpp */; };
+		5B58568124842A7E003188D0 /* Richardson_extrapolation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B58567F24842A7E003188D0 /* Richardson_extrapolation.cpp */; };
+		5B58568624842C69003188D0 /* Newton_Cotes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B58568424842C69003188D0 /* Newton_Cotes.cpp */; };
+		5B58568B24842E96003188D0 /* f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B58568924842E96003188D0 /* f.cpp */; };
 		5B5FA0D924817D58009D1303 /* LUP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B5FA0D724817D58009D1303 /* LUP.cpp */; };
 		5BBAF4CF247FCD0000B07563 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BBAF4CE247FCD0000B07563 /* main.cpp */; };
 /* End PBXBuildFile section */
@@ -24,6 +28,13 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5B58567B248429A3003188D0 /* constants.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = constants.cpp; sourceTree = "<group>"; };
+		5B58567F24842A7E003188D0 /* Richardson_extrapolation.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Richardson_extrapolation.cpp; sourceTree = "<group>"; };
+		5B58568024842A7E003188D0 /* Richardson_extrapolation.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Richardson_extrapolation.hpp; sourceTree = "<group>"; };
+		5B58568424842C69003188D0 /* Newton_Cotes.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Newton_Cotes.cpp; sourceTree = "<group>"; };
+		5B58568524842C69003188D0 /* Newton_Cotes.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Newton_Cotes.hpp; sourceTree = "<group>"; };
+		5B58568924842E96003188D0 /* f.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = f.cpp; sourceTree = "<group>"; };
+		5B58568A24842E96003188D0 /* f.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = f.hpp; sourceTree = "<group>"; };
 		5B5FA0D724817D58009D1303 /* LUP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LUP.cpp; sourceTree = "<group>"; };
 		5B5FA0D824817D58009D1303 /* LUP.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LUP.hpp; sourceTree = "<group>"; };
 		5BBAF4CB247FCD0000B07563 /* Integral(Task4) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Integral(Task4)"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,6 +52,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B58567E24842A64003188D0 /* Richardson_extrapolation */ = {
+			isa = PBXGroup;
+			children = (
+				5B58567F24842A7E003188D0 /* Richardson_extrapolation.cpp */,
+				5B58568024842A7E003188D0 /* Richardson_extrapolation.hpp */,
+			);
+			path = Richardson_extrapolation;
+			sourceTree = "<group>";
+		};
+		5B58568324842C54003188D0 /* Newton_Cotes */ = {
+			isa = PBXGroup;
+			children = (
+				5B58568424842C69003188D0 /* Newton_Cotes.cpp */,
+				5B58568524842C69003188D0 /* Newton_Cotes.hpp */,
+			);
+			path = Newton_Cotes;
+			sourceTree = "<group>";
+		};
+		5B58568C24842EBD003188D0 /* f */ = {
+			isa = PBXGroup;
+			children = (
+				5B58568A24842E96003188D0 /* f.hpp */,
+				5B58568924842E96003188D0 /* f.cpp */,
+			);
+			path = f;
+			sourceTree = "<group>";
+		};
 		5B5FA0D624817D46009D1303 /* LUP */ = {
 			isa = PBXGroup;
 			children = (
@@ -69,8 +107,12 @@
 		5BBAF4CD247FCD0000B07563 /* Integral(Task4) */ = {
 			isa = PBXGroup;
 			children = (
-				5B5FA0D624817D46009D1303 /* LUP */,
 				5BBAF4CE247FCD0000B07563 /* main.cpp */,
+				5B58567B248429A3003188D0 /* constants.cpp */,
+				5B58568C24842EBD003188D0 /* f */,
+				5B58568324842C54003188D0 /* Newton_Cotes */,
+				5B58567E24842A64003188D0 /* Richardson_extrapolation */,
+				5B5FA0D624817D46009D1303 /* LUP */,
 			);
 			path = "Integral(Task4)";
 			sourceTree = "<group>";
@@ -132,8 +174,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B58568B24842E96003188D0 /* f.cpp in Sources */,
 				5BBAF4CF247FCD0000B07563 /* main.cpp in Sources */,
+				5B58568624842C69003188D0 /* Newton_Cotes.cpp in Sources */,
 				5B5FA0D924817D58009D1303 /* LUP.cpp in Sources */,
+				5B58568124842A7E003188D0 /* Richardson_extrapolation.cpp in Sources */,
+				5B58567D248429A3003188D0 /* constants.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

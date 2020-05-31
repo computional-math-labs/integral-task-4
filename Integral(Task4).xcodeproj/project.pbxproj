@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B5FA0D924817D58009D1303 /* LUP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B5FA0D724817D58009D1303 /* LUP.cpp */; };
 		5BBAF4CF247FCD0000B07563 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BBAF4CE247FCD0000B07563 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		5B5FA0D724817D58009D1303 /* LUP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LUP.cpp; sourceTree = "<group>"; };
+		5B5FA0D824817D58009D1303 /* LUP.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LUP.hpp; sourceTree = "<group>"; };
 		5BBAF4CB247FCD0000B07563 /* Integral(Task4) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Integral(Task4)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BBAF4CE247FCD0000B07563 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5B5FA0D624817D46009D1303 /* LUP */ = {
+			isa = PBXGroup;
+			children = (
+				5B5FA0D724817D58009D1303 /* LUP.cpp */,
+				5B5FA0D824817D58009D1303 /* LUP.hpp */,
+			);
+			path = LUP;
+			sourceTree = "<group>";
+		};
 		5BBAF4C2247FCD0000B07563 = {
 			isa = PBXGroup;
 			children = (
@@ -57,6 +69,7 @@
 		5BBAF4CD247FCD0000B07563 /* Integral(Task4) */ = {
 			isa = PBXGroup;
 			children = (
+				5B5FA0D624817D46009D1303 /* LUP */,
 				5BBAF4CE247FCD0000B07563 /* main.cpp */,
 			);
 			path = "Integral(Task4)";
@@ -120,6 +133,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BBAF4CF247FCD0000B07563 /* main.cpp in Sources */,
+				5B5FA0D924817D58009D1303 /* LUP.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,21 +15,22 @@
 #include <iostream>
 #include <cmath>
 
+#include "LUP/LUP.hpp"
 #include "constants.cpp"
+
+
+#include "Gauss_formula/Gauss_formula.hpp"
 #include "Newton_Cotes/Newton_Cotes.hpp"
 
-double Gauss_formula() {
-    double Sh;
-    
-    
-    return Sh;
-}
 
 
 int main() {
 
     double Newton_Cotes_result = Newton_Cotes();
-    std::cout << Newton_Cotes_result << "\n";
+    double Gauss_result = Gauss_formula();
+    
+    std::cout << "Результат с помощью формул Ньютона-Котеса: " << Newton_Cotes_result << "\n";
+    std::cout << "Результат с помощью формулы Гаусса: " << Gauss_result << "\n";
     
     
     

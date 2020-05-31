@@ -100,7 +100,7 @@ double Newton_Cotes() {
             h *= fac;
             N = (HIGHER_LIMIT-LOWER_LIMIT) / h;
             N++;
-            std::cout << "h_opt = " << h << "\n";
+//            std::cout << "h_opt = " << h << "\n";
         }
         
         N*=2;

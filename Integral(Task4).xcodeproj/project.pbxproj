@@ -11,6 +11,8 @@
 		5B58568124842A7E003188D0 /* Richardson_extrapolation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B58567F24842A7E003188D0 /* Richardson_extrapolation.cpp */; };
 		5B58568624842C69003188D0 /* Newton_Cotes.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B58568424842C69003188D0 /* Newton_Cotes.cpp */; };
 		5B58568B24842E96003188D0 /* f.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B58568924842E96003188D0 /* f.cpp */; };
+		5B58569024846439003188D0 /* Cardano_formula.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B58568E24846439003188D0 /* Cardano_formula.cpp */; };
+		5B585694248464C8003188D0 /* Gauss_formula.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B585692248464C8003188D0 /* Gauss_formula.cpp */; };
 		5B5FA0D924817D58009D1303 /* LUP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B5FA0D724817D58009D1303 /* LUP.cpp */; };
 		5BBAF4CF247FCD0000B07563 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BBAF4CE247FCD0000B07563 /* main.cpp */; };
 /* End PBXBuildFile section */
@@ -35,6 +37,10 @@
 		5B58568524842C69003188D0 /* Newton_Cotes.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Newton_Cotes.hpp; sourceTree = "<group>"; };
 		5B58568924842E96003188D0 /* f.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = f.cpp; sourceTree = "<group>"; };
 		5B58568A24842E96003188D0 /* f.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = f.hpp; sourceTree = "<group>"; };
+		5B58568E24846439003188D0 /* Cardano_formula.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Cardano_formula.cpp; sourceTree = "<group>"; };
+		5B58568F24846439003188D0 /* Cardano_formula.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Cardano_formula.hpp; sourceTree = "<group>"; };
+		5B585692248464C8003188D0 /* Gauss_formula.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Gauss_formula.cpp; sourceTree = "<group>"; };
+		5B585693248464C8003188D0 /* Gauss_formula.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Gauss_formula.hpp; sourceTree = "<group>"; };
 		5B5FA0D724817D58009D1303 /* LUP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LUP.cpp; sourceTree = "<group>"; };
 		5B5FA0D824817D58009D1303 /* LUP.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LUP.hpp; sourceTree = "<group>"; };
 		5BBAF4CB247FCD0000B07563 /* Integral(Task4) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Integral(Task4)"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -79,6 +85,24 @@
 			path = f;
 			sourceTree = "<group>";
 		};
+		5B58568D2484641A003188D0 /* Cardano */ = {
+			isa = PBXGroup;
+			children = (
+				5B58568E24846439003188D0 /* Cardano_formula.cpp */,
+				5B58568F24846439003188D0 /* Cardano_formula.hpp */,
+			);
+			path = Cardano;
+			sourceTree = "<group>";
+		};
+		5B585691248464AA003188D0 /* Gauss_formula */ = {
+			isa = PBXGroup;
+			children = (
+				5B585692248464C8003188D0 /* Gauss_formula.cpp */,
+				5B585693248464C8003188D0 /* Gauss_formula.hpp */,
+			);
+			path = Gauss_formula;
+			sourceTree = "<group>";
+		};
 		5B5FA0D624817D46009D1303 /* LUP */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +134,8 @@
 				5BBAF4CE247FCD0000B07563 /* main.cpp */,
 				5B58567B248429A3003188D0 /* constants.cpp */,
 				5B58568C24842EBD003188D0 /* f */,
+				5B585691248464AA003188D0 /* Gauss_formula */,
+				5B58568D2484641A003188D0 /* Cardano */,
 				5B58568324842C54003188D0 /* Newton_Cotes */,
 				5B58567E24842A64003188D0 /* Richardson_extrapolation */,
 				5B5FA0D624817D46009D1303 /* LUP */,
@@ -175,6 +201,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5B58568B24842E96003188D0 /* f.cpp in Sources */,
+				5B58569024846439003188D0 /* Cardano_formula.cpp in Sources */,
+				5B585694248464C8003188D0 /* Gauss_formula.cpp in Sources */,
 				5BBAF4CF247FCD0000B07563 /* main.cpp in Sources */,
 				5B58568624842C69003188D0 /* Newton_Cotes.cpp in Sources */,
 				5B5FA0D924817D58009D1303 /* LUP.cpp in Sources */,

@@ -97,8 +97,8 @@
 		5B585691248464AA003188D0 /* Gauss_formula */ = {
 			isa = PBXGroup;
 			children = (
-				5B585692248464C8003188D0 /* Gauss_formula.cpp */,
 				5B585693248464C8003188D0 /* Gauss_formula.hpp */,
+				5B585692248464C8003188D0 /* Gauss_formula.cpp */,
 			);
 			path = Gauss_formula;
 			sourceTree = "<group>";

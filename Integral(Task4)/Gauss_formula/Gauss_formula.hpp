@@ -11,6 +11,7 @@
 
 #include <stdio.h>
 
-double Gauss_formula();
+double Gauss_formula(const double &low, const double &high);
+double Gauss();
 
 #endif /* Gauss_formula_hpp */

@@ -12,5 +12,6 @@
 #include <stdio.h>
 
 double f(double x);
+double f_div_p(double x);
 
 #endif /* f_hpp */

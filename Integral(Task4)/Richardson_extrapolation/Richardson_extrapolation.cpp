@@ -15,7 +15,6 @@ double Richardson_extrapolation(double *S_h, const double &h, const int &m, cons
     
     double R_h = 0;
     
-    
     double *Cm = new double[3];
     int     *p = new int[3];
     double **H = new double*[3];
@@ -26,6 +25,16 @@ double Richardson_extrapolation(double *S_h, const double &h, const int &m, cons
     H[0][0] = 1; H[0][1] = -pow(h, m);       H[0][2] = -pow(h, m+1);
     H[1][0] = 1; H[1][1] = -pow(h/L, m);     H[1][2] = -pow(h/L, m+1);
     H[2][0] = 1; H[2][1] = -pow(h/(L*L), m); H[2][2] = -pow(h/(L*L), m+1);
+    
+    if (m == -1) {
+        H[0][1] = -1/pow(h, -m);
+        H[1][1] = -1/pow(h/L, -m);
+        H[2][1] = -1/pow(h/(L*L), -m);
+    } else if (m < -1) {
+        H[0][2] = -1/pow(h, -(m+1));
+        H[1][2] = -1/pow(h/L, -(m+1));
+        H[2][2] = -1/pow(h/(L*L), -(m+1));
+    } 
     
     LUPDecompose(H, p, 3);
     LUPSolve(H, p, S_h, Cm, 3);

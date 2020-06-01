@@ -21,7 +21,7 @@ https://www.wolframalpha.com/input/?i=integrate+%28%282.5*cos%282*x%29*exp%282*x
 int main() {
 
     double Newton_Cotes_result = Newton_Cotes();
-    double Gauss_result = Gauss_formula();
+    double Gauss_result = Gauss();
     
     std::cout << "Результат с помощью формул Ньютона-Котеса: " << Newton_Cotes_result << "\n";
     std::cout << "Результат с помощью формулы Гаусса: " << Gauss_result << "\n";

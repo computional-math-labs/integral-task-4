@@ -12,3 +12,7 @@
 double f(double x) {
     return (2.5*cos(2*x)*exp(2*x/3)+4*sin(3.5*x)*exp(-3*x)+3*x);
 }
+
+double f_div_p(double x) {
+    return (2.5*cos(2*x)*exp(2*x/3)+4*sin(3.5*x)*exp(-3*x)+3*x)/pow(x-0.1, 0.2);
+}

@@ -14,6 +14,7 @@
 		5B58569024846439003188D0 /* Cardano_formula.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B58568E24846439003188D0 /* Cardano_formula.cpp */; };
 		5B585694248464C8003188D0 /* Gauss_formula.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B585692248464C8003188D0 /* Gauss_formula.cpp */; };
 		5B5FA0D924817D58009D1303 /* LUP.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B5FA0D724817D58009D1303 /* LUP.cpp */; };
+		5B89C51C2486835300D0E074 /* Gauss_SLAE.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5B89C51A2486835300D0E074 /* Gauss_SLAE.cpp */; };
 		5BBAF4CF247FCD0000B07563 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5BBAF4CE247FCD0000B07563 /* main.cpp */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,8 @@
 		5B585693248464C8003188D0 /* Gauss_formula.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Gauss_formula.hpp; sourceTree = "<group>"; };
 		5B5FA0D724817D58009D1303 /* LUP.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LUP.cpp; sourceTree = "<group>"; };
 		5B5FA0D824817D58009D1303 /* LUP.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LUP.hpp; sourceTree = "<group>"; };
+		5B89C51A2486835300D0E074 /* Gauss_SLAE.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Gauss_SLAE.cpp; sourceTree = "<group>"; };
+		5B89C51B2486835300D0E074 /* Gauss_SLAE.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Gauss_SLAE.hpp; sourceTree = "<group>"; };
 		5BBAF4CB247FCD0000B07563 /* Integral(Task4) */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Integral(Task4)"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BBAF4CE247FCD0000B07563 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -108,6 +111,8 @@
 			children = (
 				5B5FA0D724817D58009D1303 /* LUP.cpp */,
 				5B5FA0D824817D58009D1303 /* LUP.hpp */,
+				5B89C51A2486835300D0E074 /* Gauss_SLAE.cpp */,
+				5B89C51B2486835300D0E074 /* Gauss_SLAE.hpp */,
 			);
 			path = LUP;
 			sourceTree = "<group>";
@@ -200,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B89C51C2486835300D0E074 /* Gauss_SLAE.cpp in Sources */,
 				5B58568B24842E96003188D0 /* f.cpp in Sources */,
 				5B58569024846439003188D0 /* Cardano_formula.cpp in Sources */,
 				5B585694248464C8003188D0 /* Gauss_formula.cpp in Sources */,
